@@ -1,0 +1,236 @@
+
+
+/* Home Page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+#banner {
+    background-color: #f8f9fa; 
+}
+
+.display-2 {
+    margin-bottom: 20px;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #292b2c;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+footer h4 {
+    color: #ffc107;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li a {
+    color: #ffffff;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: #ffffff; 
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.social-icons a:hover {
+    color: #ffc107;
+}
+
+
+/* Download Page */
+
+#download-btns {
+    margin-top: 100px;
+    background-color: #f8f9fa; /* Light gray background color */
+    padding: 50px 0; /* Adjust the padding as needed */
+}
+
+.section-heading {
+    color: #343a40; /* Dark color for section headings */
+}
+
+.underline {
+    width: 60px;
+    height: 3px;
+    background-color: #ffc107; /* Warning color for underlines */
+    margin: 10px auto;
+}
+
+.text-muted li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.text-muted a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+.text-muted a:hover {
+    text-decoration: underline;
+}
+
+/* Community Page */
+
+#cards {
+    margin-top: 80px; /* Adjust the margin to create space below the fixed navbar */
+}
+
+.section-heading {
+    color: #343a40; /* Dark color for section headings */
+}
+
+.text-muted {
+    color: #6c757d; /* Subdued color for text-muted */
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #343a40; /* Dark color for card titles */
+}
+
+.card-text {
+    color: #6c757d; /* Subdued color for card text */
+}
+
+.btn-primary {
+    background-color: #ffc107; /* Warning color for primary buttons */
+    border-color: #ffc107;
+}
+
+.btn-primary:hover {
+    background-color: #ffca2c; /* Slightly lighter color on hover */
+    border-color: #ffca2c;
+}
+
+/* Future Page */
+
+#hero {
+    background-color: #343a40; /* Dark background color for the hero section */
+    color: #ffffff; /* White text color for the hero section */
+    padding: 70px 0;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#innovation {
+    background-color: #f8f9fa; /* Light background color for the innovation section */
+    padding: 50px 0;
+    margin-bottom: 250px;
+}
+
+#innovation h2 {
+    color: #343a40; /* Dark color for section headings */
+}
+
+#innovation p {
+    color: #6c757d; /* Subdued color for text */
+}
+
+#innovation .text-bold {
+    font-weight: bold;
+    color: #343a40; /* Dark color for bold text */
+}
+
+/* News Page */
+
+#hero1 {
+    padding: 100px 0;
+}
+
+#hero1 h1 {
+    font-size: 3rem;
+}
+
+#news {
+    margin-bottom: 250px;
+}
+
+#news h2 {
+    color: #ffffff;
+}
+
+.card {
+    background: #343a40; /* Dark background for cards */
+    color: #ffffff;
+}
+
+.card-title {
+    color: #ffc107; /* Warning color for card titles */
+}
+
+.card img {
+    height: 200px; /* Limit the height of the news images */
+    object-fit: cover;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+/* About Page */
+
+#aboutus {
+    margin-top: 200px;
+}
+
+#address {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    padding-bottom: 200px; /* Adjust this value as needed */
+}
+
+/* Contact Us Page */
+
+.container2 {
+    padding-top: 80px; /* Adjusted padding for space below fixed navbar */
+  }
+#contact-content {
+    margin-top: 40px;
+  }
+#contact-icons {
+    margin-top: 40px;
+  }

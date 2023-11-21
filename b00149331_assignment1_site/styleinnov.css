@@ -1,0 +1,97 @@
+/* Innovation Page */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #007bff, #343a40); /* Gradient background */
+    color: #ffffff; /* White text color */
+}
+
+.navbar {
+    padding: 15px;
+}
+
+#hero {
+    padding: 80px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#gallery {
+    padding: 50px 0;
+}
+
+#gallery h2 {
+    color: #ffffff;
+}
+
+#gallery p {
+    color: #ffffff;
+}
+
+#gallery .card {
+    background: #343a40; /* Dark background for gallery cards */
+}
+
+#gallery .card img {
+    max-height: 200px; /* Limit the height of the gallery images */
+}
+
+#gallery .card p {
+    color: #ffffff;
+}
+
+#contact {
+    background: #343a40; /* Dark background for the contact section */
+    padding: 50px 0;
+}
+
+#contact h2 {
+    color: #ffc107; /* Warning color */
+}
+
+#contact p {
+    color: #ffffff;
+}
+
+#contact button {
+    background-color: #ffc107; /* Warning color for the button */
+    color: #343a40; /* Dark text color for the button */
+}
+
+footer {
+    padding: 30px 0;
+}
+
+/* Styling for the contact information in the footer */
+footer h4 {
+    color: #ffc107; /* Warning color */
+}
+
+/* Styling for the quick links in the footer */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li a {
+    color: #ffffff; /* White color for links */
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for social icons in the footer */
+.social-icons a {
+    color: #ffffff; /* White color for icons */
+    margin-right: 10px;
+}
+
+.social-icons a:hover {
+    color: #ffc107; /* Warning color on hover */
+}
